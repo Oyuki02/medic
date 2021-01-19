@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Axelera Medic">
+    <meta name="robots" content="index,follow">
+    <!--boostrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fd0370411b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Axelera Medic</title>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/Web-LogoAM.png" height="69" alt="Logo Axelera Medic"
+                        loading="lazy"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#funcionamiento">Asi funciona<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#especialidades">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#beneficios">Beneficios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#requisitos">Requisitos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#registroModal" data-toggle="modal"
+                            data-target="#registroModal">Regístrate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#solicitaloModal"><button class="btn-solicitalo" type="submit"
+                                    data-toggle="modal" data-target="#solicitaloModal">¡Solicítalo!</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><button class="btn-sesion" type="submit" data-toggle="modal"
+                                    data-target="#sesionModal">Inicia Sesión</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.axelera.credit/#/">+ de Axelera</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+
+        <!--hero-->
+        <section class="hero" id="funcionamiento">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center py-5">
+                        <figure class="pb-4">
+                            <img class="img-fluid" width="315" src="img/Web-LogoAxeleraMedic2.png"
+                                alt="Logo Axelera medic" />
+                        </figure>
+                        <h1 class="text-center pb-3">Financiando Salud</h1>
+                        <button class="btn-hero btn-size" type="submit"
+                        data-toggle="modal" data-target="#solicitaloModal">¡Solicítalo!</button>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+        </section>
+
+        <!--Asi funciona-->
+        <section class="funcionamiento-AM">
+            <div class="container-fluid py-2 px-5r">
+                <div class="row">
+                    <div class="col-md-12 text-center py-4">
+                        <h2>Así funciona <img class="img-fluid" width="325" src="img/LogoAxeleraMedic-txt.png" /></h2>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-2">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="160" src="img/Web-AxeleraMedic-F1.png" alt="Paso 1" />
+                        </figure>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="txt-funciona">Una vez <strong>valorada(o) por tu<br> médico,</strong> puedes solicitar
+                            tu<br> <strong>financiamiento</strong> aquí</p>
+                        <button class="btn-hero btn-size2" type="submit"
+                        data-toggle="modal" data-target="#solicitaloModal">¡Solícitalo!</button>
+                    </div>
+                    <div class="col-md-3">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="220" src="img/Web-AxeleraMedic-F2.png" alt="Paso 2" />
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="txt-funciona">Después de realizar la <strong>solicitud <br>en línea,</strong>
+                            AxeleraMedic<br> generará el mejor <strong>plan de<br> financiamiento</strong> para ti</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-3 order-2">
+                        <p class="txt-funciona"><strong>Aprobado el financiamiento,</strong><br> AxeleraMedic liberará
+                            el pago<br> directamente a <strong>tu médico</strong></p>
+                    </div>
+                    <div class="col-md-3 order-1 ">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="197" src="img/Web-AxeleraMedic-F3.png" alt="Paso 3" />
+                        </figure>
+                    </div>
+                    <div class="col-md-3 order-4">
+                        <p class="txt-funciona"><strong>¡Listo!</strong> Tú médico puede<br> <strong>programar la
+                                cirugía</strong></p>
+                    </div>
+                    <div class="col-md-3 order-3">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="220" src="img/Web-AxeleraMedic-F4.png" alt="Paso 4" />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Especialidades-->
+        <section class="especialidades" id="especialidades">
+            <div class="container-fluid py-5 px-5">
+                <div class="row">
+                    <div class="col-md-12 text-center pb-5">
+                        <h2>Especialidades a financiar</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="163" src="img/Web-AxeleraMedicS3i1.png" />
+                        </figure>
+                        <p class="txt-especialidades">Cirugía General</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="163" src="img/Web-AxeleraMedicS3i2.png" />
+                        </figure>
+                        <p class="txt-especialidades">Cirugía Plástica</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="163" src="img/Web-AxeleraMedicS3i3.png" />
+                        </figure>
+                        <p class="txt-especialidades">Traumatología</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="163" src="img/Web-AxeleraMedicS3i4.png" />
+                        </figure>
+                        <p class="txt-especialidades">Bariatría</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="163" src="img/Web-AxeleraMedicS3i5.png" />
+                        </figure>
+                        <p class="txt-especialidades">Fertilidad</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <figure>
+                            <img class="mx-auto img-fluid" width="163" src="img/Web-AxeleraMedicS3i6.png" />
+                        </figure>
+                        <p class="txt-especialidades">Oftalmología</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--Beneficios-->
+        <section class="beneficios-A-M" id="beneficios">
+            <div class="container py-5">
+                <div class="row pb-5">
+                    <div class="col-md-12 text-right">
+                        <h2 class="mr-btm">Beneficios de <img class="img-fluid" width="325"
+                                src="img/LogoAxeleraMedic-txt.png" /></h2>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <figure>
+                            <img class="img-fluid img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc1.png" />
+                        </figure>
+                    </div>
+                    <div class="col-md-4  text-right">
+                        <figure><img class="img-fluid img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc2.png" />
+                        </figure>
+                    </div>
+                    <div class="col-md-3  text-right">
+                        <figure><img class="img-fluid img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc3.png" />
+                        </figure>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-4  text-right">
+                        <figure><img class="img-fluid img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc4.png" />
+                        </figure>
+                    </div>
+                    <div class="col-md-6  text-right">
+                        <figure><img class="img-fluid img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc5.png" />
+                        </figure>
+                    </div>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-md-5">
+
+                    </div>
+                    <div class="col-md-3  text-right">
+                        <figure><img class=" img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc6.png" /></figure>
+                    </div>
+                    <div class="col-md-4  text-right">
+                        <figure><img class=" img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc7.png" /></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--requisitos-->
+        <section class="requisitos-fin pb-5" id="requisitos">
+
+            <div class="row py-5">
+                <div class="col-md-12 banner-RF">
+                    <h2 class="text-center py-2">Requisitos para el financiamiento</h2>
+                </div>
+            </div>
+            <div class="container-fluid px-5">
+                <div class="row">
+                    <div class="col-md-5">
+
+                        <figure class="px-2">
+                            <img class="img-fluid" width="500" src="img/del-solicitante.png"/>
+                        </figure>
+                    </div>
+                    <div class="col-md-7">
+                        
+                           <p class="title-docu">De la Documentación</p> 
+                           <hr>
+                            <ul>
+                            <li class="text-lista">Contar con Identificación Oficial Vigente <br>
+                                (Credencial IFE o INE, Pasaporte)
+                            </li>
+                            <li class="text-lista">Comprobante de Domicilio del mes corriente o mes anterior inmediato <br>
+                                (Teléfono, Gas, Predial, Luz)
+                            </li>
+                            <li class="text-lista">Comprobante de Ingresos <br>
+                                (Recibo de Nómina, Estado de Cuenta, ambos de los últimos 3 meses)
+                            </li>
+                            <li class="text-lista">Contar con CURP para documentación complementaria</li>
+                        </ul>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--legales-->
+        <section class="legales-am py-5">
+            <div class="container-fluid px-5">
+                <div class="row px-5">
+                    <div class="col-md-7 pl-5">
+                        <p class="txt-legales bold">CREDITEA, SAPI DE C.V. SOFOM, E.N.R.</p>
+                        <p class="txt-legales text-justify"> Para su constitución y operación no requiere autorización
+                            de la
+                            Secretaría
+                            de Hacienda y Crédito Público, y está sujeta a la supervisión de la Comisión
+                            Nacional Bancaria y de Valores, únicamente para efectos de lo dispuesto
+                            por el artículo 56 de la Ley General de Organizaciones y Actividades
+                            Auxiliares del Crédito.</p><br>
+                    </div>
+                    <div class="col-md-5 padd-no">
+                        <p class="txt-legales bold">Encuéntranos en:</p>
+                        <p class="txt-legales"> Prolongación Paseo de la Reforma No. 1190, Torre B<br>
+                            Oficina 2610, Col. Santa Fe, CP 05349, CDMX.</p><br>
+                        <p class="txt-legales">Tel +52 (55) 2589-7161</p>
+                    </div>
+                </div>
+                <div class="row px-5">
+                    <div class="col-md-5 pl-5 pt-2">
+                        <p class="txt-legales bold">CONDUSEF:</p>
+                        <p class="txt-legales"> Teléfonos (55) 5340 0999 y (01 800) 999 8080 <br>
+                            Página web:<a href="https://www.condusef.gob.mx/"> www.condusef.gob.mx</a></p>
+                    </div>
+                    <div class="col-md-7 text-right pt-5">
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <img class="logos-lgls img-fluid" alt=""
+                                    src="./img/logo-buro-entidades-financieras.png" />
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="logos-lgls img-fluid" alt="" src="./img/cnbv.png" />
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="logos-lgls img-fluid" alt="" src="./img/condusef.jpg" />
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <img class="logos-lgls img-fluid" alt="" src="./img/logocirculocredito.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--footer-->
+        <footer class="footer-am pt-5 pb-3">
+            <div class="container-fluid px-5">
+                <div class="row">
+                    <div class="col-md-2 text-center pb-3">
+                        <img class="img-fluid" width="130" src="img/Web-LogoAxeleraMedic4.png" />
+                    </div>
+                    <div class="col-md-3">
+                        <p class="txt-footer">Aviso de privacidad</p>
+                        <p class="txt-footer">Terminos y condiciones</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p class="txt-footer">Buró de Entidades Financieras </p>
+                        <p class="txt-footer">Unidad Especializada de Atención a Usuarios (UNE)</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <div class="padd-iconos-r">
+                            <img class="iconos-redes img-fluid" src="img/facebook.svg" />
+                            <img class="iconos-redes2 img-fluid" src="img/linkedin.svg" />
+                        </div>
+                        <p class="txt-footer2"> &copy; AxeleraMedic 2020</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+  <!--modal solicitalo-->
+
+  <div class="modal" tabindex="-1" id="solicitaloModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h3 class="modal-title color-azul pb-4 txt-header-mdal" id="exampleModalLabel">¡Solicítalo!</h3>
+        </div>
+        <div class="modal-body">
+          <form class="form-body">
+              <p class="txt-body-mdal color-azul text-center">Envíanos tus datos y nos pondremos en contacto</p>
+            <div class="form-row">
+              <div class="form-group col-md-12 color-azul txt-body-mdal">
+                <label for="inputnombre">Nombre Completo*</label>
+                <input type="text" class="form-control" id="inputnombre">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6 color-azul txt-body-mdal">
+                <label for="inputEmail4">Correo*</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="form-group col-md-6 color-azul txt-body-mdal">
+                <label for="inputTelefono">Teléfono/Celular*</label>
+                <input type="telefono" class="form-control" id="inputTelefono">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12 color-azul txt-body-mdal">
+                  <label for="inputNombreMedico">Nombre de el médico que hizo la valoración*</label>
+                  <input type="text" class="form-control" id="inputNombreMedico">
+                </div>
+            </div>
+           
+          </form>
+        </div>
+        <div class="text-center">
+          <div class="pb-5">
+            <button id="btnShow" type="button" class="btn btn-modal-solicitar" data-toggle="modal"
+              data-target="#graciasModal">Solicitar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--registro-->
+<div class="modal" tabindex="-1" id="registroModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h3 class="modal-title txt-header-mdal color-azul pb-4" id="exampleModalLabel">Regístrate</h3>
+        </div>
+        <div class="modal-body">
+          <form class="form-body">
+            <div class="form-row">
+              <div class="form-group col-md-6 color-azul txt-body-mdal">
+                <label for="inputnombre">Primer nombre*</label>
+                <input type="text" class="form-control" id="inputnombre">
+              </div>
+              <div class="form-group col-md-6 color-azul txt-body-mdal">
+                <label for="inputnombre">Segundo nombre*</label>
+                <input type="text" class="form-control" id="inputSegundoNombre">
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6 color-azul txt-body-mdal">
+                  <label for="inputnombre">Apellido paterno*</label>
+                  <input type="text" class="form-control" id="inputApellidoPaterno">
+                </div>
+                <div class="form-group col-md-6 color-azul txt-body-mdal">
+                  <label for="inputnombre">Apellido materno*</label>
+                  <input type="text" class="form-control" id="inputApellidoMaterno">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6 color-azul txt-body-mdal">
+                  <label for="inputnombre">Nombre de usuario*</label>
+                  <input type="text" class="form-control" id="inputNombre Usuario">
+                </div>
+                <div class="form-group col-md-6 color-azul txt-body-mdal">
+                    <label for="inputCurp">CURP*</label>
+                    <input type="text" class="form-control" id="inputCurp">
+                </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6 color-azul txt-body-mdal">
+                <label for="inputEmail4">Correo*</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="form-group col-md-6 color-azul txt-body-mdal">
+                <label for="inputCelular">Celular 10 digitos*</label>
+                <input type="text" class="form-control" id="inputCelular">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6 color-azul txt-body-mdal">
+                <label for="inputPassword1">Contraseña*</label>
+                <input type="password" class="form-control" id="inputPassword1">
+              </div>
+              <div class="form-group col-md-6 color-azul txt-body-mdal">
+                <label for="inputPasswor2">Confirmar contraseña*</label>
+                <input type="password" class="form-control" id="inputPassword2">
+              </div>
+            </div>
+            <div class="form-check color-azul">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+              <label class="form-check-label small" for="defaultCheck2">
+                Acepto términos y condiciones del servicio, he leído las políticas de privacidad del sitio
+              </label>
+            </div>
+          </form>
+        </div>
+        <div class="text-center">
+          <div class="pb-5">
+            <button id="btnShow" type="button" class="btn btn-modal-sesion" data-toggle="modal"
+              data-target="#graciasModal">Registrate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal sesion-->
+   <div class="modal fade" id="sesionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="text-center">
+          <h3 class="modal-title color-azul txt-header-mdal pb-4" id="exampleModalLabel">Iniciar sesión</h3>
+        </div>
+        <div class="modal-body">
+          <form class="form-body pb-3">
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" Correo electrónico">
+            </div>
+            <div class="form-group">
+
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Contraseña">
+            </div>
+            <div class="form-inline">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label color-azul" for="defaultCheck1">Recuérdame</label>
+                <p class="small txt-small color-azul">¿Olvidaste tu contraseña?</p>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="text-center py-4">
+          <div class="pb-4">
+            <button type="button" class="btn btn-modal-sesion ">Iniciar sesión</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!---->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+</script>
+</body>
+
+</html>
