@@ -17,17 +17,15 @@
 <body>
     <!--header-->
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-light bg-blue">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="img/Web-LogoAM.png" height="69" alt="Logo Axelera Medic"
                         loading="lazy"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
@@ -45,7 +43,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#registroModal" data-toggle="modal"
-                            data-target="#registroModal">Regístrate</a>
+                                data-target="#registroModal">Regístrate</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#solicitaloModal"><button class="btn-solicitalo" type="submit"
@@ -62,8 +60,8 @@
                 </div>
             </div>
         </nav>
-
     </header>
+
     <main>
 
         <!--hero-->
@@ -76,11 +74,10 @@
                                 alt="Logo Axelera medic" />
                         </figure>
                         <h1 class="text-center pb-3">Financiando Salud</h1>
-                        <button class="btn-hero btn-size" type="submit"
-                        data-toggle="modal" data-target="#solicitaloModal">¡Solicítalo!</button>
+                        <button class="btn-hero btn-size" type="submit" data-toggle="modal"
+                            data-target="#solicitaloModal">¡Solicítalo!</button>
                     </div>
-                    <div class="col-md-6">
-                    </div>
+                   
                 </div>
         </section>
 
@@ -101,8 +98,8 @@
                     <div class="col-md-3">
                         <p class="txt-funciona">Una vez <strong>valorada(o) por tu<br> médico,</strong> puedes solicitar
                             tu<br> <strong>financiamiento</strong> aquí</p>
-                        <button class="btn-hero btn-size2" type="submit"
-                        data-toggle="modal" data-target="#solicitaloModal">¡Solícitalo!</button>
+                        <button class="btn-hero btn-size2" type="submit" data-toggle="modal"
+                            data-target="#solicitaloModal">¡Solícitalo!</button>
                     </div>
                     <div class="col-md-3">
                         <figure>
@@ -230,39 +227,43 @@
 
                     </div>
                     <div class="col-md-3  text-right">
-                        <figure><img class=" img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc6.png" /></figure>
+                        <figure><img class="img-fluid-2 img-benef" height="65"
+                                src="img/Web-AxeleraMedicSemiCirc6.png" /></figure>
                     </div>
                     <div class="col-md-4  text-right">
-                        <figure><img class=" img-benef" height="65" src="img/Web-AxeleraMedicSemiCirc7.png" /></figure>
+                        <figure><img class="img-fluid-2 img-benef" height="65"
+                                src="img/Web-AxeleraMedicSemiCirc7.png" /></figure>
                     </div>
                 </div>
             </div>
         </section>
         <!--requisitos-->
         <section class="requisitos-fin pb-5" id="requisitos">
-
+            <div class="container-fluid">
             <div class="row py-5">
                 <div class="col-md-12 banner-RF">
                     <h2 class="text-center py-2">Requisitos para el financiamiento</h2>
                 </div>
             </div>
+        </div>
             <div class="container-fluid px-5">
                 <div class="row">
                     <div class="col-md-5">
 
                         <figure class="px-2">
-                            <img class="img-fluid" width="500" src="img/del-solicitante.png"/>
+                            <img class="img-fluid" width="500" src="img/del-solicitante.png" />
                         </figure>
                     </div>
                     <div class="col-md-7">
-                        
-                           <p class="title-docu">De la Documentación</p> 
-                           <hr>
-                            <ul>
+
+                        <p class="title-docu">De la Documentación</p>
+                        <hr>
+                        <ul>
                             <li class="text-lista">Contar con Identificación Oficial Vigente <br>
                                 (Credencial IFE o INE, Pasaporte)
                             </li>
-                            <li class="text-lista">Comprobante de Domicilio del mes corriente o mes anterior inmediato <br>
+                            <li class="text-lista">Comprobante de Domicilio del mes corriente o mes anterior inmediato
+                                <br>
                                 (Teléfono, Gas, Predial, Luz)
                             </li>
                             <li class="text-lista">Comprobante de Ingresos <br>
@@ -271,7 +272,7 @@
                             <li class="text-lista">Contar con CURP para documentación complementaria</li>
                         </ul>
 
-                       
+
                     </div>
                 </div>
             </div>
@@ -354,186 +355,190 @@
         </footer>
     </main>
 
-  <!--modal solicitalo-->
+    <!--modal solicitalo-->
 
-  <div class="modal" tabindex="-1" id="solicitaloModal">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="text-center">
-          <h3 class="modal-title color-azul pb-4 txt-header-mdal" id="exampleModalLabel">¡Solicítalo!</h3>
-        </div>
-        <div class="modal-body">
-          <form class="form-body">
-              <p class="txt-body-mdal color-azul text-center">Envíanos tus datos y nos pondremos en contacto</p>
-            <div class="form-row">
-              <div class="form-group col-md-12 color-azul txt-body-mdal">
-                <label for="inputnombre">Nombre Completo*</label>
-                <input type="text" class="form-control" id="inputnombre">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6 color-azul txt-body-mdal">
-                <label for="inputEmail4">Correo*</label>
-                <input type="email" class="form-control" id="inputEmail4">
-              </div>
-              <div class="form-group col-md-6 color-azul txt-body-mdal">
-                <label for="inputTelefono">Teléfono/Celular*</label>
-                <input type="telefono" class="form-control" id="inputTelefono">
-              </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-12 color-azul txt-body-mdal">
-                  <label for="inputNombreMedico">Nombre de el médico que hizo la valoración*</label>
-                  <input type="text" class="form-control" id="inputNombreMedico">
+    <div class="modal" tabindex="-1" id="solicitaloModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="text-center">
+                    <h3 class="modal-title color-azul pb-4 txt-header-mdal" id="exampleModalLabel">¡Solicítalo!</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form-body">
+                        <p class="txt-body-mdal color-azul text-center">Envíanos tus datos y nos pondremos en contacto
+                        </p>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 color-azul txt-body-mdal">
+                                <label for="inputnombre">Nombre Completo*</label>
+                                <input type="text" class="form-control" id="inputnombre">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputEmail4">Correo*</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputTelefono">Teléfono/Celular*</label>
+                                <input type="telefono" class="form-control" id="inputTelefono">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 color-azul txt-body-mdal">
+                                <label for="inputNombreMedico">Nombre de el médico que hizo la valoración*</label>
+                                <input type="text" class="form-control" id="inputNombreMedico">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="text-center">
+                    <div class="pb-5">
+                        <button id="btnShow" type="button" class="btn btn-modal-solicitar" data-toggle="modal"
+                            data-target="#graciasModal">Solicitar</button>
+                    </div>
                 </div>
             </div>
-           
-          </form>
         </div>
-        <div class="text-center">
-          <div class="pb-5">
-            <button id="btnShow" type="button" class="btn btn-modal-solicitar" data-toggle="modal"
-              data-target="#graciasModal">Solicitar</button>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-<!--registro-->
-<div class="modal" tabindex="-1" id="registroModal">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="text-center">
-          <h3 class="modal-title txt-header-mdal color-azul pb-4" id="exampleModalLabel">Regístrate</h3>
-        </div>
-        <div class="modal-body">
-          <form class="form-body">
-            <div class="form-row">
-              <div class="form-group col-md-6 color-azul txt-body-mdal">
-                <label for="inputnombre">Primer nombre*</label>
-                <input type="text" class="form-control" id="inputnombre">
-              </div>
-              <div class="form-group col-md-6 color-azul txt-body-mdal">
-                <label for="inputnombre">Segundo nombre*</label>
-                <input type="text" class="form-control" id="inputSegundoNombre">
-              </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6 color-azul txt-body-mdal">
-                  <label for="inputnombre">Apellido paterno*</label>
-                  <input type="text" class="form-control" id="inputApellidoPaterno">
+    <!--registro-->
+    <div class="modal" tabindex="-1" id="registroModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-                <div class="form-group col-md-6 color-azul txt-body-mdal">
-                  <label for="inputnombre">Apellido materno*</label>
-                  <input type="text" class="form-control" id="inputApellidoMaterno">
+                <div class="text-center">
+                    <h3 class="modal-title txt-header-mdal color-azul pb-4" id="exampleModalLabel">Regístrate</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form-body">
+                        <div class="form-row">
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputnombre">Primer nombre*</label>
+                                <input type="text" class="form-control" id="inputnombre">
+                            </div>
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputnombre">Segundo nombre*</label>
+                                <input type="text" class="form-control" id="inputSegundoNombre">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputnombre">Apellido paterno*</label>
+                                <input type="text" class="form-control" id="inputApellidoPaterno">
+                            </div>
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputnombre">Apellido materno*</label>
+                                <input type="text" class="form-control" id="inputApellidoMaterno">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputnombre">Nombre de usuario*</label>
+                                <input type="text" class="form-control" id="inputNombre Usuario">
+                            </div>
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputCurp">CURP*</label>
+                                <input type="text" class="form-control" id="inputCurp">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputEmail4">Correo*</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputCelular">Celular 10 digitos*</label>
+                                <input type="text" class="form-control" id="inputCelular">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputPassword1">Contraseña*</label>
+                                <input type="password" class="form-control" id="inputPassword1">
+                            </div>
+                            <div class="form-group col-md-6 color-azul txt-body-mdal">
+                                <label for="inputPasswor2">Confirmar contraseña*</label>
+                                <input type="password" class="form-control" id="inputPassword2">
+                            </div>
+                        </div>
+                        <div class="form-check color-azul">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                            <label class="form-check-label small" for="defaultCheck2">
+                                Acepto términos y condiciones del servicio, he leído las políticas de privacidad del
+                                sitio
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-center">
+                    <div class="pb-5">
+                        <button id="btnShow" type="button" class="btn btn-modal-sesion" data-toggle="modal"
+                            data-target="#graciasModal">Registrate</button>
+                    </div>
                 </div>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-6 color-azul txt-body-mdal">
-                  <label for="inputnombre">Nombre de usuario*</label>
-                  <input type="text" class="form-control" id="inputNombre Usuario">
-                </div>
-                <div class="form-group col-md-6 color-azul txt-body-mdal">
-                    <label for="inputCurp">CURP*</label>
-                    <input type="text" class="form-control" id="inputCurp">
-                </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6 color-azul txt-body-mdal">
-                <label for="inputEmail4">Correo*</label>
-                <input type="email" class="form-control" id="inputEmail4">
-              </div>
-              <div class="form-group col-md-6 color-azul txt-body-mdal">
-                <label for="inputCelular">Celular 10 digitos*</label>
-                <input type="text" class="form-control" id="inputCelular">
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6 color-azul txt-body-mdal">
-                <label for="inputPassword1">Contraseña*</label>
-                <input type="password" class="form-control" id="inputPassword1">
-              </div>
-              <div class="form-group col-md-6 color-azul txt-body-mdal">
-                <label for="inputPasswor2">Confirmar contraseña*</label>
-                <input type="password" class="form-control" id="inputPassword2">
-              </div>
-            </div>
-            <div class="form-check color-azul">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-              <label class="form-check-label small" for="defaultCheck2">
-                Acepto términos y condiciones del servicio, he leído las políticas de privacidad del sitio
-              </label>
-            </div>
-          </form>
         </div>
-        <div class="text-center">
-          <div class="pb-5">
-            <button id="btnShow" type="button" class="btn btn-modal-sesion" data-toggle="modal"
-              data-target="#graciasModal">Registrate</button>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 
-   <!-- Modal sesion-->
-   <div class="modal fade" id="sesionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="text-center">
-          <h3 class="modal-title color-azul txt-header-mdal pb-4" id="exampleModalLabel">Iniciar sesión</h3>
-        </div>
-        <div class="modal-body">
-          <form class="form-body pb-3">
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" Correo electrónico">
-            </div>
-            <div class="form-group">
+    <!-- Modal sesion-->
+    <div class="modal fade" id="sesionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="text-center">
+                    <h3 class="modal-title color-azul txt-header-mdal pb-4" id="exampleModalLabel">Iniciar sesión</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form-body pb-3">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder=" Correo electrónico">
+                        </div>
+                        <div class="form-group">
 
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Contraseña">
-            </div>
-            <div class="form-inline">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label color-azul" for="defaultCheck1">Recuérdame</label>
-                <p class="small txt-small color-azul">¿Olvidaste tu contraseña?</p>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="text-center py-4">
-          <div class="pb-4">
-            <button type="button" class="btn btn-modal-sesion ">Iniciar sesión</button>
-          </div>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder=" Contraseña">
+                        </div>
+                        <div class="form-inline">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label color-azul" for="defaultCheck1">Recuérdame</label>
+                                <p class="small txt-small color-azul">¿Olvidaste tu contraseña?</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-center py-4">
+                    <div class="pb-4">
+                        <button type="button" class="btn btn-modal-sesion ">Iniciar sesión</button>
+                    </div>
 
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 
 
-<!---->
+    <!---->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-</script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
