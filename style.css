@@ -52,6 +52,7 @@ body{
 .bg-blue, .navbar-collapse{
     background-color: #4147c6;
     z-index: 1;
+    padding-left: 1rem;
 }
 .navbar{
     height: 100px;
@@ -318,7 +319,6 @@ font-weight: 200;
         }
 }
 
-
 @media (max-width: 375px) {
     .logos-lgls {
         height: 57px;
@@ -330,8 +330,14 @@ font-weight: 200;
         padding-left: 1.5rem!important;
         padding-right: 1.5rem!important;
     }
+    .ele-center{
+        text-align: center;
+    }
+    .btn-size2{
+        width: auto;
+    }
     .img-benef{
-    height: 45px!important;
+    height: 45px;
     }
     section.legales-am .px-5 {
         padding-left: 1.2rem !important;
@@ -357,26 +363,28 @@ font-weight: 200;
     }
 
 }
-@media (max-width: 1270px) and (min-width: 1025px) {
-    /* .nav-link{
-        font-size: 1em!important; 
-        padding-left: 0;
-    } */
-}
 @media (max-width: 1024px) and (min-width: 992px) {
   
-    /* .nav-link{
-        font-size: 0.74em; 
-        padding-left: 0;
-    } */
     .img-fluid-2{
         max-width: 100%;
         height: auto;
     }
   }
   @media(max-width: 992px){
+    .nav-link{
+        font-size: 20px;
+        
+    }  
     .img-fluid-2{
         max-width: 100%;
-        height: auto;
+        
     }
   }
+
+  @media only screen and (max-width: 767px) {
+    .especialidades {
+    background-color: #bbd3f5;
+    background-image: none;
+    
+    }
+    }
